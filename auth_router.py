@@ -20,3 +20,7 @@ async def Creat_account(user: UserBase, session: SessionDep):
     session.refresh(user_form)
 
     return user_form
+
+@auth_router.post("/login")
+async def login():
+    ...
