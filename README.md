@@ -39,10 +39,15 @@ Passlib (bcrypt)
 ## Project Structure
 
 app/
+
 ├── models/        # Database models (SQLModel)
+
 ├── routes/        # API endpoints
+
 ├── security/      # Authentication (JWT, password hashing)
+
 ├── database/      # Database configuration
+
 └── main.py        # Application entry point
 
 ## System Logic
