@@ -40,15 +40,15 @@ Passlib (bcrypt)
 
 app/
 
-├── models/        # Database models (SQLModel)
+├── models/                  # Database models (SQLModel)
 
-├── routes/        # API endpoints
+├── routes/                  # API endpoints
 
-├── security/      # Authentication (JWT, password hashing)
+├── security/                # Authentication (JWT, password hashing)
 
-├── database/      # Database configuration
+├── database/                # Database configuration
 
-└── main.py        # Application entry point
+└── main.py                  # Application entry point
 
 ## System Logic
 
