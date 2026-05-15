@@ -9,7 +9,7 @@ class UserBase(SQLModel):
     email: EmailStr = Field(index=True)
     password: str = Field(index=True)
 
-class User(UserBase,table=True):
+class User(UserBase, table=True):
     id: int | None = Field(default=None, primary_key=True)
 
 sqlite_file_name = "database.db"
