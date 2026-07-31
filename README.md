@@ -61,3 +61,18 @@ Users log in and receive a JWT token
 The token is used to access protected routes
 
 The /me endpoint returns the authenticated user
+
+
+## Installation
+
+1. Clone the repository
+
+git clone 
+
+2. Enter the project folder
+
+cd E-commerce-system-with-shopping-cart
+
+3. Create virtual environment
+
+python -m venv venv
