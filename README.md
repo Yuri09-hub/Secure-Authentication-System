@@ -67,7 +67,7 @@ The /me endpoint returns the authenticated user
 
 1. Clone the repository
 
-git clone 
+git clone https://github.com/Yuri09-hub/Secure-Authentication-System.git
 
 2. Enter the project folder
 
